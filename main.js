@@ -16,12 +16,10 @@ const os = require("os");
 
 //2
 
-// function getFileName(__filename) {
-//     console.log(path.basename(__filename));
+// function getFileName(fileName) {
+//     return (path.basename(fileName));
 // }
-// // console.log(__filename);
-// getFileName(__filename)
-
+// console.log(getFileName('/user/files/report.pdf'));
 //==============================================//
 
 //3
@@ -41,24 +39,24 @@ const os = require("os");
 
 //4
 
-// function getExt(__filename) {
-//     return path.extname(__filename);
+// function getExt(fileName) {
+//     return path.extname(fileName);
 // }
-// console.log(getExt(__filename));
+// console.log(getExt("/docs/readme.md"));
 
 //==============================================//
 
 //5
 
-// function myParse(__filename) {
-//     let res =  path.parse(__filename)
+// function myParse(fileName) {
+//     let res =  path.parse(fileName)
 //     return {
 //         name : res.name,
 //         ext : res.ext
 //     }
 // }
 
-// console.log(myParse(__filename));
+// console.log(myParse("/home/app/main.js"));
 
 //==============================================//
 
